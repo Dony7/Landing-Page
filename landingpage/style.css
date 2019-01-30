@@ -401,7 +401,7 @@ body{
 }
 
 
-@media (max-width: 1070px) {
+@media (max-width: 600px) {
     .inputs{
         flex-direction: column;
     }
@@ -414,6 +414,7 @@ body{
         font-size: 1rem;
     }
 
+  
     .about{
         margin: 10px auto;
         width: 80%;
@@ -431,6 +432,19 @@ body{
     .contact{
         right: 10px;
         top: 10px;
+    }
+
+    .card{
+        min-width: 300px;
+    }
+
+    .section:nth-child(2){
+        margin:0;
+        width: 100%;
+    }
+
+    .info{
+        padding: 20px 0;
     }
 
 }
